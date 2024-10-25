@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: vbc;
+    src: url("./assets/AgenorNeue-Regular.otf");
+  }
+  
+  @font-face {
+    font-family: dja;
+    src: url("./assets/Djavaloc.ttf");
+  }
+  
+  body {
+    font-family: vbc;
+  }
+  
+  .sec_font {
+    font-family: dja;
+  }
+  
+  .transition-slide {
+    transition: transform 0.3s ease-in-out;
+  }
+  
